@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "backend in coc",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm test"
+    "server": "nodemon src/index.js"
   },
   "keywords": [
     "node"
   ],
   "author": "hevin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
